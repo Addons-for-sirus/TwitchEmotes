@@ -470,7 +470,7 @@ local defaultpack = {
 	[":vihr:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\vihr.tga:XLARGE",
 --pack 4
 	[":BuntaNet:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\BuntaNet.tga:XLARGE",
-	[":Cirk:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Cirk.tga:XLARGE",
+	[":Cirk:l"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Cirk.tga:LONG",
 	[":Glazki:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Glazki.tga:XLARGE",
 	[":gryst:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\gryst.tga:XLARGE",
 	[":Hamster:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Hamster.tga:XLARGE",
@@ -717,7 +717,7 @@ local defaultpack = {
 	[":vihr:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\vihr.tga:XXLARGE",
 --pack 4
 	[":BuntaNet:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\BuntaNet.tga:XXLARGE",
-	[":Cirk:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Cirk.tga:XXLARGE",
+
 	[":Glazki:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Glazki.tga:XXLARGE",
 	[":gryst:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\gryst.tga:XXLARGE",
 	[":Hamster:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Hamster.tga:XXLARGE",
@@ -964,7 +964,7 @@ local defaultpack = {
 	[":vihr:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\vihr.tga:XXXLARGE",
 --pack 4
 	[":BuntaNet:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\BuntaNet.tga:XXXLARGE",
-	[":Cirk:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Cirk.tga:XXXLARGE",
+
 	[":Glazki:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Glazki.tga:XXXLARGE",
 	[":gryst:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\gryst.tga:XXXLARGE",
 	[":Hamster:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Hamster.tga:XXXLARGE",
@@ -1486,7 +1486,7 @@ local emoticons = {
 	--455
 	
 	[":BuntaNet:w"] = ":BuntaNet:w",
-	[":Cirk:w"] = ":Cirk:w",
+	[":Cirk:l"] = ":Cirk:l",
 	[":Glazki:w"] = ":Glazki:w",
 	[":gryst:w"] = ":gryst:w",
 	[":Hamster:w"] = ":Hamster:w",
@@ -1749,7 +1749,7 @@ local emoticons = {
 	--455
 	
 	[":BuntaNet:ww"] = ":BuntaNet:ww",
-	[":Cirk:ww"] = ":Cirk:ww",
+
 	[":Glazki:ww"] = ":Glazki:ww",
 	[":gryst:ww"] = ":gryst:ww",
 	[":Hamster:ww"] = ":Hamster:ww",
@@ -2012,7 +2012,7 @@ local emoticons = {
 	--455
 	
 	[":BuntaNet:www"] = ":BuntaNet:www",
-	[":Cirk:www"] = ":Cirk:www",
+	
 	[":Glazki:www"] = ":Glazki:www",
 	[":gryst:www"] = ":gryst:www",
 	[":Hamster:www"] = ":Hamster:www",
@@ -2165,7 +2165,7 @@ local dropdown_options = {
 	 },	
 	
 	 [15] = {
-        "LONG", ":Kabanchik:l",   ":SverxM:l", ":Zaec:l", ":Covi:l",":Xoxl:l",":Ydar:l",":Covi:l",
+        "LONG", ":Kabanchik:l",   ":SverxM:l", ":Zaec:l", ":Covi:l",":Xoxl:l",":Ydar:l",":Cirk:l",
 	 },	
 };
 
