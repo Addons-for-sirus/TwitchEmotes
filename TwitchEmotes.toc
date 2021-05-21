@@ -1,0 +1,11 @@
+## Interface: 30300
+## Title:|cFF8C00FFTwitch Emotes
+## Notes:|cFFFFFFFFИспользуй эмодзи в чате игры!
+## Author: Пьяная, Фалафель
+## Version: v1
+## SavedVariables: Emoticons_Settings
+## OptionalDeps: LibStub, LibUIDropDownMenu
+
+libs\load_libs.xml
+TwitchEmotes.lua
+TwitchEmotes.xml
