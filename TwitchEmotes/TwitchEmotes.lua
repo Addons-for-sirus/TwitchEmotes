@@ -162,6 +162,10 @@ local defaultpack = {
 	[":TripleMonkas:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\TripleMonkas.tga:30:30",
 	[":WokePepe:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\WokePepe.tga:30:30",
 	[":WYPERS:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\WYPERS.tga:30:30",
+	[":pepoclown:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\pepoclown.tga:30:30",
+	[":pepoclown:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\pepoclown.tga:LARGE",
+	[":pepoclown:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\pepoclown.tga:XLARGE",
+	[":pepoclownw:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\pepoclown.tga:XXLARGE",
 --velik
 	[":velik:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\velik.tga:30:30",
 --jojo 1
@@ -1151,6 +1155,9 @@ local emoticons = {
 	[":TripleMonkas:"] = ":TripleMonkas:",
 	[":WokePepe:"] = ":WokePepe:",
 	[":WYPERS:"] = ":WYPERS:",
+	[":pepoclown:w"] = ":pepoclown:w",
+	[":pepoclown:ww"] = ":pepoclown:ww",
+	[":pepoclown:www"] =":pepoclown:www",
 	-- velik
 	[":velik:"] = ":velik:",
 	
@@ -2134,7 +2141,7 @@ local dropdown_options = {
     },
 	[7] = {
         "pepe 2", ":PepeBoen:",":PepeBrilliant:",":PepeDead:",":pepeJack:",":PepeKMS:",":pepelaug:",":pepeOld:",":Pepepants:",":PepeRotJam:",":Pepesmoke:",":pepesqui:",":Pepewow:",
-		":pyes:",":no:",":Sirus:",":TripleMonkas:",":WokePepe:",":WYPERS:",":Hypers:",":PepeYep:",
+		":pyes:",":no:",":Sirus:",":TripleMonkas:",":WokePepe:",":WYPERS:",":Hypers:",":PepeYep:",":pepoclown:",
     },
 	
 	[8] = {
