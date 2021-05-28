@@ -1155,6 +1155,7 @@ local emoticons = {
 	[":TripleMonkas:"] = ":TripleMonkas:",
 	[":WokePepe:"] = ":WokePepe:",
 	[":WYPERS:"] = ":WYPERS:",
+	[":pepoclown:"] = ":pepoclown:",
 	[":pepoclown:w"] = ":pepoclown:w",
 	[":pepoclown:ww"] = ":pepoclown:ww",
 	[":pepoclown:www"] =":pepoclown:www",
