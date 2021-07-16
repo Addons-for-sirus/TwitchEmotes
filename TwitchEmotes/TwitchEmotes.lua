@@ -58,7 +58,7 @@ local origsettings = {
         true, true, true
     }
 };
-
+Emoticons_Eyecandy=true;
 local defaultpack = {
 --pack 1	
 	[":Ayaya:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Ayaya.tga:30:30",
@@ -2255,9 +2255,8 @@ end
 
 function MyMod_MinimapButton_Reposition()
     MyMod_MinimapButton:SetPoint("TOPLEFT", "Minimap", "TOPLEFT", 52 -
-                                     (80 * cos(Emoticons_Settings["MinimapPos"])),
-                                 (80 * sin(Emoticons_Settings["MinimapPos"])) -
-                                     52)
+								(80 * cos(Emoticons_Settings["MinimapPos"])),
+                                 (80 * sin(Emoticons_Settings["MinimapPos"])) -    52)
 end
 
 -- Only while the button is dragged this is called every frame
@@ -2279,10 +2278,6 @@ function MyMod_MinimapButton_OnClick()
                            MyMod_MinimapButton, 0,0);
 end
 
-function ChatFrame3EditBox_OnClick()
-    L_ToggleDropDownMenu(1, nil, EmoticonMiniMapDropDown,
-                           MyMod_MinimapButton, 0,0);
-end
 
 function ItemTextPageText.SetText(self, msg, ...)
     if (Emoticons_Settings["MAIL"] and msg ~= nil) then
@@ -2647,3 +2642,53 @@ function Emoticons_RegisterPack(name, newEmoticons, pack)
         defaultpack[k] = v
     end
 end
+--ChatFrame3EditBox:EnableMouse(true)
+--ChatFrame3EditBox:registerForClicks("RightButtonDown")
+--
+--ChatFrame3EditBox:SetScript("OnClick", function(clicktochat) 
+--  L_ToggleDropDownMenu(1, nil, EmoticonMiniMapDropDown,
+--                           MyMod_MinimapButton, 0,0);
+--   
+--  end)
+--LFRBrowseFrame:SetScript("OnDragStart", function(this) 
+--  this:StartMoving() 
+--  end)
+--LFRBrowseFrame:SetScript("OnDragStop", function(this)  
+--  this:StopMovingOrSizing()
+--  frame_x,frame_y = this:GetCenter()
+--  frame_x = frame_x - GetScreenWidth() / 2
+--  frame_y = frame_y - GetScreenHeight() / 2
+--  this:ClearAllPoints()
+--  this:SetPoint("CENTER", UIParent,"CENTER",frame_x,frame_y)
+--   -- UIParent:SetPoint("CENTER",LFRBrowseFrame,"CENTER",frame_x,frame_y)
+--   LFRParentFrame:SetAllPoints(LFRBrowseFrame)
+--  end)
+
+
+function twe_OnBlur(self)
+	L_HideDropDownMenu(1, nil, EmoticonMiniMapDropDown, ChatFrame1EditBox, 0, 0);
+end
+
+--function Emoticons_ChatFrame_OnMouseDown(self,button,down)
+--	if(button == "RightButton") then
+--		ToggleDropDownMenu(1, nil, EmoticonMiniMapDropDown, ChatFrameEditBox, 0, 0);
+--		--(level, value, dropDownFrame, anchorName, xOffset, yOffset, menuList, button)
+--	end
+--end
+function twe_OnMouseDown(self,button,down) 
+if(button == "RightButton") then
+		L_ToggleDropDownMenu(1, nil, EmoticonMiniMapDropDown,  ChatFrame1EditBox, 0,0);	--(level, value, dropDownFrame, anchorName, xOffset, yOffset, menuList, button);
+		end
+end
+
+
+
+
+for i=1,NUM_CHAT_WINDOWS do
+local ChatFrameEditBox = getglobal("ChatFrame"..i.."EditBox");	
+	if(ChatFrameEditBox) then
+		ChatFrameEditBox:SetScript("OnMouseDown",twe_OnMouseDown);
+		ChatFrameEditBox:SetScript("OnEditFocusLost",twe_OnBlur);
+			end
+end
+

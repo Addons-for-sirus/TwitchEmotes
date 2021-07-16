@@ -456,7 +456,13 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
       </OnLoad>
     </Scripts>
   </Frame>
-
+   <Frame name="EmoticonChatFrameDropDown" inherits="UIDropDownMenuTemplate" id="2">
+    <Scripts>
+      <OnLoad>
+	      L_UIDropDownMenu_Initialize(self, Emoticons_LoadChatFrameDropdown, "MENU", 1);
+      </OnLoad>
+    </Scripts>
+  </Frame>
   <Button name="MyMod_MinimapButton" parent="Minimap" enableMouse="true" movable="true" hidden="false">
     <Size>
       <AbsDimension x="33" y="33"/>
