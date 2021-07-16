@@ -2279,6 +2279,11 @@ function MyMod_MinimapButton_OnClick()
                            MyMod_MinimapButton, 0,0);
 end
 
+function ChatFrame3EditBox_OnClick()
+    L_ToggleDropDownMenu(1, nil, EmoticonMiniMapDropDown,
+                           MyMod_MinimapButton, 0,0);
+end
+
 function ItemTextPageText.SetText(self, msg, ...)
     if (Emoticons_Settings["MAIL"] and msg ~= nil) then
         msg = Emoticons_RunReplacement(msg);
