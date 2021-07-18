@@ -2679,12 +2679,13 @@ end
 --		--(level, value, dropDownFrame, anchorName, xOffset, yOffset, menuList, button)
 --	end
 --end
+
+--
 function twe_OnMouseDown(self,button,down) 
 if(button == "RightButton") then
 		L_ToggleDropDownMenu(1, nil, EmoticonMiniMapDropDown,  ChatFrame1EditBox, 0,0);	--(level, value, dropDownFrame, anchorName, xOffset, yOffset, menuList, button);
 		end
 end
-
 
 
 
