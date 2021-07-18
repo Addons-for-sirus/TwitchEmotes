@@ -2325,6 +2325,10 @@ function Emoticons_LoadMiniMapDropdown(self, level, menuList)
     end
 end
 
+
+
+
+
 function Emoticons_Dropdown_OnClick(self, arg1, arg2, arg3)
     if (ACTIVE_CHAT_EDIT_BOX ~= nil) then
         ACTIVE_CHAT_EDIT_BOX:Insert(self.value);
@@ -2685,10 +2689,33 @@ end
 
 
 for i=1,NUM_CHAT_WINDOWS do
-local ChatFrameEditBox = getglobal("ChatFrame"..i.."EditBox");	
+	local ChatFrameEditBox = getglobal("ChatFrame"..i.."EditBox");	
 	if(ChatFrameEditBox) then
 		ChatFrameEditBox:SetScript("OnMouseDown",twe_OnMouseDown);
 		ChatFrameEditBox:SetScript("OnEditFocusLost",twe_OnBlur);
 			end
 end
 
+--for i=1,10 do
+--	local  dragte = getglobal("L_DropDownList"..i);
+--	if (dragte) then	
+--	dragte:EnableMouse(true)
+--	dragte:SetMovable(true)
+--	dragte:RegisterForDrag("LeftButton")
+--	dragte:Show()
+--	--dragte:SetScript()
+--	dragte:SetScript("OnDragStart", function(thism) 
+--		thism:StartMoving() 
+--		 end)
+--	dragte:SetScript("OnDragStop", function(thiss)  
+--		 thiss:StopMovingOrSizing()
+--		 tframe_x,tframe_y = thiss:GetCenter()
+--		 tframe_y = tframe_y - GetScreenHeight() / 2
+--		  tframe_x = tframe_x - GetScreenWidth() / 2
+--			--thiss:ClearAllPoints()
+--			dragte:SetPoint("CENTER", UIParent,"CENTER",tframe_x,tframe_y)
+--			-- UIParent:SetPoint("CENTER",LFRBrowseFrame,"CENTER",frame_x,frame_y)
+--			-- LFRParentFrame:SetAllPoints(LFRBrowseFrame)
+--			end)
+--	end
+--	end
