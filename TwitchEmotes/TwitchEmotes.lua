@@ -165,7 +165,7 @@ local defaultpack = {
 	[":pepoclown:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\pepoclown.tga:30:30",
 	[":pepoclown:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\pepoclown.tga:LARGE",
 	[":pepoclown:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\pepoclown.tga:XLARGE",
-	[":pepoclownw:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\pepoclown.tga:XXLARGE",
+	[":pepoclown:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\pepoclown.tga:XXLARGE",
 --velik
 	[":velik:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\velik.tga:30:30",
 --jojo 1
