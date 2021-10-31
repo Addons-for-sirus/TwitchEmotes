@@ -176,6 +176,7 @@ local defaultpack = {
 	[":jtea2:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\jtea2.tga:30:30",
 	[":monet:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\monet.tga:30:30",
 	[":yavij:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\yavij.tga:30:30",
+	[":sirsc:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\sirsc.tga:30:30",
 --jojo 2
 	[":dioface:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\dioface.tga:30:30",
 	[":diosloja:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\diosloja.tga:30:30",
@@ -423,6 +424,7 @@ local defaultpack = {
 	[":jtea2:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\jtea2.tga:XLARGE",
 	[":monet:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\monet.tga:XLARGE",
 	[":yavij:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\yavij.tga:XLARGE",
+	[":sirsc:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\sirsc.tga:XLARGE",
 --jojo 2
 	[":dioface:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\dioface.tga:XLARGE",
 	[":diosloja:w"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\diosloja.tga:XLARGE",
@@ -669,7 +671,8 @@ local defaultpack = {
 	[":jtea1:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\jtea1.tga:XXLARGE",
 	[":jtea2:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\jtea2.tga:XXLARGE",
 	[":monet:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\monet.tga:XXLARGE",
-	[":yavij:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\yavij.tga:XXLARGE",	
+	[":yavij:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\yavij.tga:XXLARGE",
+	[":sirsc:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\sirsc.tga:XXLARGE",
 --jojo 2
 	[":dioface:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\dioface.tga:XXLARGE",
 	[":diosloja:ww"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\diosloja.tga:XXLARGE",
@@ -917,6 +920,7 @@ local defaultpack = {
 	[":jtea2:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\jtea2.tga:XXXLARGE",
 	[":monet:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\monet.tga:XXXLARGE",
 	[":yavij:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\yavij.tga:XXXLARGE",
+	[":sirsc:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\sirsc.tga:XXXLARGE",
 --jojo 2
 	[":dioface:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\dioface.tga:XXXLARGE",
 	[":diosloja:www"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\diosloja.tga:XXXLARGE",
@@ -1171,6 +1175,7 @@ local emoticons = {
 	[":jtea2:"] = ":jtea2:",
 	[":monet:"] = ":monet:",
 	[":yavij:"] = ":yavij:",
+	[":sirsc:"] = ":sirsc:",
 	
 	------jojo 2
 	[":dioface:"] = ":dioface:",
@@ -1435,6 +1440,7 @@ local emoticons = {
 	[":jtea2:w"] = ":jtea2:w",
 	[":monet:w"] = ":monet:w",
 	[":yavij:w"] = ":yavij:w",
+	[":sirsc:w"] = ":sirsc:w",
 	
 	------jojo 2
 	[":dioface:w"] = ":dioface:w",
@@ -1698,6 +1704,7 @@ local emoticons = {
 	[":jtea2:ww"] = ":jtea2:ww",
 	[":monet:ww"] = ":monet:ww",
 	[":yavij:ww"] = ":yavij:ww",
+	[":sirsc:ww"] = ":sirsc:ww",
 	
 	------jojo 2
 	[":dioface:ww"] = ":dioface:ww",
@@ -1961,6 +1968,7 @@ local emoticons = {
 	[":jtea2:www"] = ":jtea2:www",
 	[":monet:www"] = ":monet:www",
 	[":yavij:www"] = ":yavij:www",
+	[":sirsc:www"] = ":sirsc:www",
 	
 	------jojo 2
 	[":dioface:www"] = ":dioface:www",
@@ -2157,7 +2165,7 @@ local dropdown_options = {
         "aiko 3", ":aiko41:", ":aiko42:", ":aiko43:", ":aiko44:", ":aiko45:", ":aiko46:", ":aiko47:", ":aiko48:",		
     },	  
 	[11] = {
-        "jojo pack 1", ":jtea1:", ":jtea2:", ":monet:", ":yavij:",
+        "jojo pack 1", ":jtea1:", ":jtea2:", ":monet:", ":yavij:",":sirsc:",
     },
 	[12] = {
         "jojo pack 2", ":dioface:",	":diosloja:", ":dojyah:", ":golb1:", ":igi:", ":jojodance:", ":jojofear:", ":jojonops:", ":jojonoway:", ":jojosmoke:",
