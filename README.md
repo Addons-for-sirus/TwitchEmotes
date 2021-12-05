@@ -5,4 +5,4 @@ by Falafel and fxpw
 Специально для проекта sirus.su
 
 
-Тема наф форуме  https://forum.sirus.su/threads/addon-twitchemotes-dlja-sirus.169223/
+Тема на форуме  https://forum.sirus.su/threads/addon-twitchemotes-dlja-sirus.169223/
